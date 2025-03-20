@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micah Dana Aquino - Home</title>
+  <style>
+    body {
+      font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+      background-color: #bfd4ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #86b6f6;
+    }
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 70vh;
+      padding: 0 10%;
+      gap: 40px;
+    }
+    .video-right {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    .text-content {
+      max-width: 50%;
+      text-align: left;
+    }
+    h2 {
+      font-size: 1.4em;
+      color: #0e11a6;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 4em;
+      font-family: "EB Garamond", Georgia, "DM Serif";
+      font-weight: bold;
+      color: #0e11a6;
+      margin: 5px 0;
+    }
+    p {
+      font-size: 1.1em;
+      color: #444;
+      margin-bottom: 20px;
+    }
+    .know-more {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0e11a6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #86b6f6;
+      padding: 10px 0;
+      font-family: Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1em;
+      font-family: Verdana, sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    nav a:hover,
+    nav a:focus {
+      background-color: #0e11a6;
+      color: white;
+    }
+    .active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MD</div>
+    <div class="social-icons">
+      <a href="#">FB</a>
+      <a href="#">TW</a>
+      <a href="#">IG</a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="text-content">
+      <h2>Hello! I'm</h2>
+      <h1>Micah Dana</h1>
+      <p>Welcome to my portfolio! This is where I share a little bit about who I am, my experiences, and the things that interest me. Take a look around and get to know me better!</p>
+      <a href="#" class="know-more">Know more</a>
+    </div>
+    <video class="video-right" controls>
+      <source src="intro video.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <nav>
+    <a href="home.html" class="active">Home</a>
+    <a href="#">Introduction</a>
+    <a href="biography.html">Biography</a>
+    <a href="skills.html">Skills</a>
+    <a href="resume.html">Resume</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="media.html">Media</a>
+    <a href="#">Contact</a>
+  </nav>
+</body>
+</html>

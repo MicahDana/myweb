@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Micah Dana Aquino - Gallery</title>
+  <style>
+    body {
+      font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+      background-color: #bfd4ff;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      color: #0e11a6;
+      text-shadow: 2px 2px 8px gray;
+      font-family: "EB Garamond", Georgia, serif;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+    }
+    .gallery-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      display: block;
+      border: 2px solid #fff;
+      border-radius: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #0e11a6;
+    }
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(14, 17, 166, 0.8);
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      padding: 5px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+    nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #86b6f6;
+      padding: 10px 0;
+      font-family: Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1em;
+      font-family: Verdana, sans-serif;
+    }
+    .active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Photo Gallery Dump</h1>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="gallery1.jpg" alt="Gallery Image 1">
+      <div class="overlay">Description 1</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery2.jpg" alt="Gallery Image 2">
+      <div class="overlay">Description 2</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery3.jpg" alt="Gallery Image 3">
+      <div class="overlay">Description 3</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery4.jpg" alt="Gallery Image 4">
+      <div class="overlay">Description 4</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery5.jpg" alt="Gallery Image 5">
+      <div class="overlay">Description 5</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery6.jpg" alt="Gallery Image 6">
+      <div class="overlay">Description 6</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery7.jpg" alt="Gallery Image 7">
+      <div class="overlay">Description 7</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery8.jpg" alt="Gallery Image 8">
+      <div class="overlay">Description 8</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery9.jpg" alt="Gallery Image 9">
+      <div class="overlay">Description 9</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery10.jpg" alt="Gallery Image 10">
+      <div class="overlay">Description 10</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery11.jpg" alt="Gallery Image 11">
+      <div class="overlay">Description 11</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery12.jpg" alt="Gallery Image 12">
+      <div class="overlay">Description 12</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery13.jpg" alt="Gallery Image 13">
+      <div class="overlay">Description 13</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery14.jpg" alt="Gallery Image 14">
+      <div class="overlay">Description 14</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery15.jpg" alt="Gallery Image 15">
+      <div class="overlay">Description 15</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery16.jpg" alt="Gallery Image 16">
+      <div class="overlay">Description 16</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery17.jpg" alt="Gallery Image 17">
+      <div class="overlay">Description 17</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery18.jpg" alt="Gallery Image 18">
+      <div class="overlay">Description 18</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery19.jpg" alt="Gallery Image 19">
+      <div class="overlay">Description 19</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery20.jpg" alt="Gallery Image 20">
+      <div class="overlay">Description 20</div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="#">Introduction</a>
+    <a href="biography.html">Biography</a>
+    <a href="skills.html">Skills</a>
+    <a href="resume.html">Resume</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="media.html">Media</a>
+    <a href="#">Contact</a>
+  </nav>
+  
+</body>
+</html>

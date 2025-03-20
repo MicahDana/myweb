@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Micah Dana Aquino - Media</title>
+  <style>
+    body {
+      font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+      background-color: #bfd4ff;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #0e11a6;
+      font-family: "EB Garamond", Georgia, serif;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    h2 {
+      text-decoration: underline;
+      font-size: 1.6em;
+    }
+    h3 {
+      font-size: 1.4em;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .media-category {
+      margin-bottom: 20px;
+    }
+    .audio-clips, .video-clips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .audio-clips audio {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(14, 17, 166, 0.5);
+    }
+    .video-clips video, .video-clips a {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(14, 17, 166, 0.5);
+    }
+    .video-clips a {
+      display: inline-block;
+      background-color: #ccc;
+      line-height: 200px;
+      text-align: center;
+      text-decoration: none;
+      color: #0e11a6;
+      font-weight: bold;
+    }
+    nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #86b6f6;
+      padding: 10px 0;
+      font-family: Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      font-family: Verdana, sans-serif;
+    }
+    .active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Media</h1>
+  <div class="section">
+    <h2>My Beat</h2>
+    <!-- OPM Category -->
+    <div class="media-category">
+      <h3>OPM</h3>
+      <div class="audio-clips">
+        <div>
+          <audio controls preload="none">
+            <source src="MUSIC/Join The Club - Nobela (Lyrics).mp3" type="audio/mp3">
+          </audio>
+          <p style="text-align:center; font-size:0.9em;">Join The Club - Nobela</p>
+        </div>
+        <div>
+          <audio controls preload="none">
+            <source src="MUSIC/Maki - Dilaw (Lyrics).mp3" type="audio/mp3">
+          </audio>
+          <p style="text-align:center; font-size:0.9em;">Maki - Dilaw </p>
+        </div>
+        <div>
+          <audio controls preload="none">
+            <source src="MUSIC/Tibok  - Earl Agustin (Official Lyric Video).mp3" type="audio/mp3">
+          </audio>
+          <p style="text-align:center; font-size:0.9em;">Tibok - Earl Agustin</p>
+        </div>
+      </div>
+    </div>
+    <!-- POP Category -->
+    <div class="media-category">
+      <h3>POP</h3>
+      <div class="audio-clips">
+        <div>
+          <audio controls preload="none">
+            <source src="MUSIC/@coldplay - Yellow (Lyrics).mp3" type="audio/mp3">
+          </audio>
+          <p style="text-align:center; font-size:0.9em;">Coldplay - Yellow</p>
+        </div>
+        <div>
+          <audio controls preload="none">
+            <source src="MUSIC/Taylor Swift - Enchanted.mp3" type="audio/mp3">
+          </audio>
+          <p style="text-align:center; font-size:0.9em;">Taylor Swift - Enchanted</p>
+        </div>
+        <div>
+          <audio controls preload="none">
+            <source src="MUSIC/Sabrina Carpenter - Espresso.mp3" type="audio/mp3">
+          </audio>
+          <p style="text-align:center; font-size:0.9em;">Sabrina Carpenter - Espresso</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>My Kind of Film</h2>
+    <div class="media-category">
+      <h3>TV Shows</h3>
+      <div class="video-clips">
+        <div>
+          <video controls preload="none">
+            <source src="VIDEO/INCOGNITO Trailer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align:center; font-size:0.9em;">Incognito </p>
+        </div>
+        <div>
+          <video controls preload="none">
+            <source src="VIDEO/When Life Gives You Tangerines  Official Trailer  Netflix.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align:center; font-size:0.9em;">When Life Gives You Tangerines (Netflix)</p>
+        </div>
+      </div>
+    </div>
+    <!-- Movies Category Replaced with New Videos -->
+    <div class="media-category">
+      <h3>Movies</h3>
+      <div class="video-clips">
+        <div>
+          <video controls preload="none">
+            <source src="VIDEO/SPIDER-MAN_ NO WAY HOME - Official Trailer (HD).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align:center; font-size:0.9em;">Spider-Man: No Way Home</p>
+        </div>
+        <div>
+          <video controls preload="none">
+            <source src="VIDEO/Marvel Studios' Avengers_ Endgame - Official Trailer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align:center; font-size:0.9em;">Avengers_ Endgame</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="#">Introduction</a>
+    <a href="biography.html">Biography</a>
+    <a href="skills.html">Skills</a>
+    <a href="resume.html">Resume</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="media.html" class="active">Media</a>
+    <a href="#">Contact</a>
+  </nav>
+</body>
+</html>
